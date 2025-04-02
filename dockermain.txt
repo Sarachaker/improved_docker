@@ -15,7 +15,7 @@ RUN pip install --no-cache-dir -r requirements.txt
 COPY qr_generator.py .
 
 # Set default environment variables
-ENV QR_URL=https://github.com/your-profile
+ENV QR_URL=https://github.com/Sarachaker
 ENV QR_OUTPUT=/qr_app/output
 ENV QR_FILENAME=my_qr.png
 ENV QR_COLOR=navy
