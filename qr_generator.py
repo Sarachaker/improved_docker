@@ -6,7 +6,7 @@ from datetime import datetime
 class QRGenerator:
     def __init__(self):
         self.config = {
-            'url': os.getenv('QR_URL', 'https://github.com/your-profile'),
+            'url': os.getenv('QR_URL', 'https://github.com/Sarachaker'),
             'output_path': os.getenv('QR_OUTPUT', 'output_qr'),
             'filename': os.getenv('QR_FILENAME', f'qr_{datetime.now().strftime("%Y%m%d_%H%M%S")}.png'),
             'color': os.getenv('QR_COLOR', 'darkblue'),
