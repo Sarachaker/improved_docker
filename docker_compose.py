@@ -6,7 +6,7 @@ services:
       context: .
       dockerfile: Dockerfile
     environment:
-      - QR_URL=https://github.com/your-new-profile
+      - QR_URL=https://github.com/Sarachaker
       - QR_FILENAME=custom_qr.png
       - QR_COLOR=darkgreen
       - QR_BG_COLOR=white
