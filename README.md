@@ -16,7 +16,7 @@ A customizable QR code generator with enhanced features.
 docker build -t advanced-qr
 
 ## Logs of QR Code Generation
-![QR Log](log_screenshot.png)
+![QR Log](image.png)
 
 ## Generated QR Code
 
