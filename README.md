@@ -13,4 +13,12 @@ A customizable QR code generator with enhanced features.
 
 1. Build the image:
 ```bash
-docker build -t advanced-qr 
+docker build -t advanced-qr
+
+## Logs of QR Code Generation
+
+![QR Log](log_screenshot.png)
+
+## Generated QR Code
+
+![QR Code](qr_codes/github_qr.png)
