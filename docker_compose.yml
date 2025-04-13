@@ -1,18 +1,15 @@
 version: '3.8'
-
 services:
-  qr-service:
+  qr-app:
     build:
       context: .
       dockerfile: Dockerfile
+    container_name: qr-generator
     environment:
-      - QR_URL=https://github.com/Sarachaker
-      - QR_FILENAME=custom_qr.png
-      - QR_COLOR=darkgreen
-      - QR_BG_COLOR=white
+      - QR_DATA_URL=https://github.com/Sarachaker
+      - QR_CODE_DIR=qr_codes
+      - QR_CODE_FILENAME=github_qr.png
+      - FILL_COLOR=blue
+      - BACK_COLOR=yellow
     volumes:
-      - qr-storage:/qr_app/output
-    restart: on-failure
-
-volumes:
-  qr-storage:
+      - ./qr_codes:/app/qr_codes
