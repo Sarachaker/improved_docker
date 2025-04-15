@@ -15,7 +15,7 @@ logging.basicConfig(
 logger = logging.getLogger(__name__)
 
 # Environment variables with defaults
-QR_DATA_URL = os.getenv("QR_DATA_URL", "https://github.com/kaw393939")
+QR_DATA_URL = os.getenv("QR_DATA_URL", "https://github.com/sarachaker")
 QR_CODE_DIR = os.getenv("QR_CODE_DIR", "qr_codes")
 QR_CODE_FILENAME = os.getenv("QR_CODE_FILENAME", "github_qr.png")
 FILL_COLOR = os.getenv("FILL_COLOR", "blue")
